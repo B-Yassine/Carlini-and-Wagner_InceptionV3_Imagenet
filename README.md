@@ -1,4 +1,4 @@
-# C-W_InceptionV3_Imagenet
+# C&W_InceptionV3_Imagenet
 Simple implementation of the C&amp;W attack on a pre-trained Keras InceptionV3 on Imagenet
 
 To generate the adversarial image simply run:
