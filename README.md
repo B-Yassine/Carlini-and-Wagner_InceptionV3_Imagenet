@@ -15,7 +15,7 @@ Formalization often used: for a clean input x, an input x’ is an adversarial e
 
 For instance: For our example here is what we get using the C&W attack:
 
-![](adversarial_example.png)
+![](adversarial_example.png){:height="50px" width="10px"}
 
 For more details about the C&W attack: 
 
