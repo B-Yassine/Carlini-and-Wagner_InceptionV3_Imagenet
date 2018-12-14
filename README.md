@@ -5,7 +5,7 @@ To generate the adversarial image simply run:
 
     Python adversarial_generation.py
     
-To test the classification Run:
+To test the classification, Run:
 
     Python Inception_v3.py
 
