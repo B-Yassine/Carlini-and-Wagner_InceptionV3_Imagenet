@@ -27,7 +27,7 @@ if keras.backend.image_dim_ordering() != 'tf':
 # Retrieve the tensorflow session
 sess = backend.get_session()
 
-image = scipy.misc.imread("cat.png")
+image = scipy.misc.imread("images/cat.png")
 
 # Resizing the image to be of size 299 * 299
 image = np.array(scipy.misc.imresize(image, (299, 299)),
