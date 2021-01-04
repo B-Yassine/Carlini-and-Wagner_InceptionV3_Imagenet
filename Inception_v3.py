@@ -8,6 +8,14 @@ import matplotlib.pyplot as plt
 # Load the Inception_V3 model
 inception_model = inception_v3.InceptionV3(weights='imagenet')
 
+###################################################################
+#input_layer = layers.Input(batch_shape=model.layers[0].input_shape)
+#prev_layer = input_layer
+#for layer in model.layers:
+    #prev_layer = layer(prev_layer)
+
+#model = models.Model([input_layer], [prev_layer])
+####################################################################
 
 filename = "adversarial_cat_cw.png"
 # load an image in PIL format
